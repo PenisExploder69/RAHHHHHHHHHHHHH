@@ -91,7 +91,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": null,
+        "pk": 42699,
         "fields": {
             "first_name": "Leviathan",
             "last_name": "Bateman",
@@ -137,16 +137,7 @@ campaignTrail_temp.candidate_json = [
     }
 ]
 
-campaignTrail_temp.running_mate_json = [
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 128565,
-        "fields": {
-            "candidate": null,
-            "running_mate": 50003
-        }
-    }
-]
+campaignTrail_temp.running_mate_json = []
 
 campaignTrail_temp.credits = "hott4vance"
 
@@ -156,7 +147,7 @@ campaignTrail_temp.opponents_default_json = [
         "candidates": [
             42575,
             42513,
-            null
+            42699
         ]
     }
 ]
@@ -167,7 +158,7 @@ campaignTrail_temp.opponents_weighted_json = [
         "candidates": [
             42575,
             42513,
-            null
+            42699
         ]
     }
 ]
