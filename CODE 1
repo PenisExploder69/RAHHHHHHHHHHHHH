@@ -137,7 +137,16 @@ campaignTrail_temp.candidate_json = [
     }
 ]
 
-campaignTrail_temp.running_mate_json = []
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 172627,
+        "fields": {
+            "candidate": 42637,
+            "running_mate": 50003
+        }
+    }
+]
 
 campaignTrail_temp.credits = "hott4vance"
 
